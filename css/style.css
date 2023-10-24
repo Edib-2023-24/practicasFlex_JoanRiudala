@@ -27,12 +27,20 @@ header {
 
   display: flex;
 
-  & .logotipo {
+  & .logo {
 
   }
 
   & nav {
 
+    background-color: red;
+    flex-grow: 1;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
   }
 
   a {
